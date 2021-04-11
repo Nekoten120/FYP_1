@@ -1,0 +1,12 @@
+ {
+  "type": "service_account",
+  "project_id": "fyp-chatbot-ocnp",
+  "private_key_id": "15052d26801d23affff66f831875c15dc3a11f93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEVqwPRUh+wV1p\n1JtH2LVylldHEI6JufdW+A0UIXJYcLhFT7BHqIjtVIDLMnXvYHhxg3DZh1mfZPeR\njoJTJOVyJ4QDfDSGLF1TdqnTQRBfiYsgmGa1bIidUlMaa/XmMuYoYtGNOpQnnR+O\nUmhkAY+ZmkuxoQJVBEKZI1y/Y1TTUttaZdzvmKfeWFCInsooeY3t8NzkyIBCFhty\nVNps1rJWUcTF59/OfZRVTWohTkWItNQUJ/ZanMrpmFzkCtq1W1hYqQin6+rCqMI9\nQ+q1WvWJeYLmDeJ5Nl8/W5yt5v9Y1RR5Wwc5hL27CRQmDh+lKTVYyABA5TX700Vr\novx6XtQlAgMBAAECggEACYGt1pZy9mo78OwhsaahUIFNjAwV7r7BpmUf0v30mKoq\njfaYETwslxs8mjohAjxwUIS+AdZfJUvg/dwB3O9AKdkWeAm7TFTZFvm7qtYvagTR\npvwiGv48lit+iRy5nRIRWVrBjT5NHqbpuH0uf0shDh2ttRXX9FBeviX7b2vql0nJ\nswosLjRdU+JQEzR3dkpyYbUyef/9CTs1nLvqWagGIRG1Zp83FgejlnE0mtChT33f\nAZHltj3vG1kQtFSuLrVBqSxxAsvBUFStMxyPZMB9iLzBJ4LVynmKmHGE8GdHX84r\npLwUGsTwdhG7MavbjkMx4BcaD0WtUG17PBdDFRBEIQKBgQD3Q8uGS1jiuf+VmMRl\nTuSy9U8+MyrVbBLWlueVkhHwR1tdnebMaQfEcK8X4wk97jPDbOuMiajQe4IwvVvj\nz8YueEL+wy3NhyIxLR/04F1xgxHrsDkz6LvW4771BX9UIaqTp0o5HmeXouLRbKOz\nnppS8U3MR7EiaIRxCqBIPdbKBQKBgQDLRk/btCiS13PcO918hvpuQABq57X83Tac\nVTkGhx6Q4UDeKicjJf3cJiSKG82AHwmbTAVuYh1lhc+oqQWwNwIa0PYbtBMTXPdJ\nVyc/UkRN+ZgvgIk/ROuh6aZtDdsH7HplKCrqjlA3nsJiej5V1Jm5Vo7Idv78Wlkf\nZnn8wbJboQKBgAuc7YQjKcuMPMrD4AV6DReymcQsFwjrCH93muzVbW5Bi7L75YkY\nLbs2J6MRkK+N7nRxOybgmEMiadzsJ9KtQXuRPmREunP6sspoeiXAG+Nm6oKNRkJ/\n3cKb864CUhabdi11H/FK0ka26bw4Q//9pPXcS3EatOEO05mTjC+YZ+wZAoGBAMs4\n0D3mL2oe3EYh05zblSMD+WbnoJnczuwch5ZvH6/YgvGZUudg5BtkRsOMaDbe0Mvh\nhMyGar1Eugb0dCtn00LcBjBMJ4YEO3WnHCXCKWeLUQqshooqbSjCXxBH+eJCGVto\nfP9ip+/zWIL7k7ZbhhQ05SqlTOcdrFwoJ2z6eUYBAoGBAIy/dZ122HrU157RgPKD\nHumiAQhgdppkseoLF8greAMDi1wZj720qwKqWRIPUkw23TKDix/zyNOeA23gEuHi\n4tXLSuPcq/7mu+ny3+bshOFmnEd8AieIk8O04k4BK15Tln1znKeJgbdKD69KYtH6\n/nOZesWMCZYKabxArtO16sFY\n-----END PRIVATE KEY-----\n",
+  "client_email": "fyp-chatbot@fyp-chatbot-ocnp.iam.gserviceaccount.com",
+  "client_id": "112951753694678843377",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fyp-chatbot%40fyp-chatbot-ocnp.iam.gserviceaccount.com"
+}
