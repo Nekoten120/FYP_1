@@ -6,13 +6,17 @@ import android.content.CursorLoader;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,6 +35,7 @@ public class InfoActivity extends AppCompatActivity implements LoaderManager.Loa
     int quantity;
     public Uri mCurrentCartUri;
     boolean hasAllRequiredValues = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,7 +126,6 @@ public class InfoActivity extends AppCompatActivity implements LoaderManager.Loa
         });
 
 
-
     }
 
     private boolean SaveCart() {
@@ -161,7 +165,7 @@ public class InfoActivity extends AppCompatActivity implements LoaderManager.Loa
         }
 
         hasAllRequiredValues = true;
-        return hasAllRequiredValues;
+        return true;
 
     }
 

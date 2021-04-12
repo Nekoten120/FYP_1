@@ -5,10 +5,13 @@ import android.content.CursorLoader;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
+
 import android.os.Bundle;
 import android.view.View;
+
 import android.widget.Button;
 import android.widget.ListView;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,6 +29,14 @@ public class SummaryActivity extends AppCompatActivity implements LoaderManager.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_summary);
 
+        mBtn =(Button) findViewById(R.id.btnMakePayment);
+        mBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SummaryActivity.this,Make_Payment.class));
+
+            }
+        });
 
         Button clearthedata = findViewById(R.id.clearthedatabase);
 
@@ -50,6 +61,11 @@ public class SummaryActivity extends AppCompatActivity implements LoaderManager.
                 finish();
             }
         });
+
+
+
+
+
 
     }
 

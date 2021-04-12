@@ -46,6 +46,9 @@
         <activity android:name=".InfoActivity" />
         <activity android:name=".LatteActivity"></activity>
         <activity android:name=".SummaryActivity" />
+        <activity android:name=".Make_Payment" />
+
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
