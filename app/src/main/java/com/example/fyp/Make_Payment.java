@@ -24,6 +24,7 @@ public class Make_Payment extends AppCompatActivity {
             mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
             mWebView.setWebViewClient(new WebViewClient()
 
+
                                       {
                                           @Override
                                           public void onPageStarted(WebView view, String url, Bitmap favicon){
