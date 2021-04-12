@@ -63,12 +63,17 @@ public class BubbleTeaActivity extends AppCompatActivity implements LoaderManage
         addtoCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BubbleTeaActivity.this, SummaryActivity.class);
-                startActivity(intent);
-                // once this button is clicked we want to save our values in the database and send those values
-                // right away to summary activity where we display the order info
+                if (quantity == 0) {
+                    Toast.makeText(BubbleTeaActivity.this, "Cant decrease quantity < 0", Toast.LENGTH_SHORT).show();
+                } else {
 
-                SaveCart();
+                    Intent intent = new Intent(BubbleTeaActivity.this, SummaryActivity.class);
+                    startActivity(intent);
+                    // once this button is clicked we want to save our values in the database and send those values
+                    // right away to summary activity where we display the order info
+
+                    SaveCart();
+                }
             }
         });
 
