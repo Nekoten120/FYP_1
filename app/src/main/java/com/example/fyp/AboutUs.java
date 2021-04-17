@@ -69,7 +69,10 @@ public class AboutUs extends Login_MainActivity {
         //Assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
     }
-
+    public void ClickBack(View view){
+        //Open drawer
+        finish();
+    }
     public void ClickMenu(View view){
         //Open drawer
         MainActivity.openDrawer(drawerLayout);
@@ -103,7 +106,7 @@ public class AboutUs extends Login_MainActivity {
 
     public void ClickShoppingcart(View view){
         //Redirect activity to Vtube service
-        MainActivity.redirectActivity(this,Shopping_cart_MainActivity.class);
+        MainActivity.redirectActivity(this,SummaryActivity.class);
     }
 
     public void ClickAboutUs(View view){

@@ -160,6 +160,10 @@ public class ProductInfo extends Login_MainActivity {
         //adding our stringrequest to queue
         Volley.newRequestQueue(this).add(stringRequest);
     }
+    public void ClickBack(View view){
+        //Open drawer
+        finish();
+    }
     public void ClickMenu(View view){
         //Open drawer
         MainActivity.openDrawer(drawerLayout);
@@ -170,7 +174,10 @@ public class ProductInfo extends Login_MainActivity {
         MainActivity.closeDrawer(drawerLayout);
     }
 
-
+    public void ClickShoppingcart(View view){
+        //Redirect activity to Vtube service
+        MainActivity.redirectActivity(this,SummaryActivity.class);
+    }
 
     public void ClickHome(View view){
         //Redirect activity to home
@@ -221,4 +228,5 @@ public class ProductInfo extends Login_MainActivity {
         //Close drawer
         MainActivity.closeDrawer(drawerLayout);
     }
+
 }

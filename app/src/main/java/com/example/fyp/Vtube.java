@@ -3,6 +3,7 @@ package com.example.fyp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.VideoView;
 
@@ -16,11 +17,16 @@ public class Vtube extends Login_MainActivity {
     TextView nameTv;
     TextView emailTv;
     TextView logoutbtn;
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vtube);
+
+
+
+
 
         //logout
 
@@ -40,7 +46,18 @@ public class Vtube extends Login_MainActivity {
 
         //Assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
+
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Vtube.this, Vtube_Customer_service.class);
+                startActivity(intent);
+            }
+        });
     }
+
     public void ClickMenu(View view){
         //Open drawer
         MainActivity.openDrawer(drawerLayout);
@@ -52,7 +69,10 @@ public class Vtube extends Login_MainActivity {
     }
 
 
-
+    public void ClickBack(View view){
+        //Open drawer
+        finish();
+    }
     public void ClickHome(View view){
         //Redirect activity to home
         MainActivity.redirectActivity(this,MainActivity.class);
@@ -81,7 +101,7 @@ public class Vtube extends Login_MainActivity {
 
     public void ClickShoppingcart(View view){
         //Redirect activity to Vtube service
-        MainActivity.redirectActivity(this,Shopping_cart_MainActivity.class);
+        MainActivity.redirectActivity(this,SummaryActivity.class);
     }
 
     public void ClickAboutUs(View view){

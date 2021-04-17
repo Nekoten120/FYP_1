@@ -30,6 +30,7 @@ import java.util.Objects;
 
 
 public class Scanner extends Login_MainActivity {
+    DrawerLayout drawerLayout;
     //Initialize variable
     private static final int CAMERA_PERMISSION_REQUEST_CODE = 1000;
     private static final int CAMERA_REQUEST_CODE = 10001;
@@ -37,7 +38,7 @@ public class Scanner extends Login_MainActivity {
     private ImageView imageView;
     private ListView listView;
     private ImageClassifier imageClassifier;
-    DrawerLayout drawerLayout;
+
 
     //Login
     TextView nameTv;
@@ -243,6 +244,10 @@ public class Scanner extends Login_MainActivity {
         }
         return true;
     }
+    public void ClickBack(View view){
+        //Open drawer
+        finish();
+    }
     public void ClickMenu(View view){
         //Open drawer
         MainActivity.openDrawer(drawerLayout);
@@ -288,7 +293,7 @@ public class Scanner extends Login_MainActivity {
 
     public void ClickShoppingcart(View view){
         //Redirect activity to Vtube service
-        MainActivity.redirectActivity(this,Shopping_cart_MainActivity.class);
+        MainActivity.redirectActivity(this,SummaryActivity.class);
     }
 
     public void ClickLogout(View view){

@@ -67,6 +67,10 @@ public class Shopping_cart_MainActivity extends Login_MainActivity {
         //Assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
     }
+    public void ClickBack(View view){
+        //Open drawer
+        finish();
+    }
     public void ClickMenu(View view){
         //Open drawer
         MainActivity.openDrawer(drawerLayout);

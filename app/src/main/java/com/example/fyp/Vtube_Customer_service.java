@@ -186,7 +186,7 @@ public class Vtube_Customer_service extends Login_MainActivity implements BotRep
 
     public void ClickShoppingcart(View view){
         //Redirect activity to Vtube service
-        MainActivity.redirectActivity(this,Shopping_cart_MainActivity.class);
+        MainActivity.redirectActivity(this,SummaryActivity.class);
     }
 
     public void ClickAboutUs(View view){

@@ -195,9 +195,7 @@ public class MainActivity extends Login_MainActivity {
 
     public void ClickBack(View view){
         //Open drawer
-        openDrawer(drawerLayout);
-
-
+        finish();
     }
     public void ClickMenu(View view){
         //Open drawer
@@ -251,7 +249,7 @@ public class MainActivity extends Login_MainActivity {
 
     public void ClickShoppingcart(View view){
         //Redirect activity to Vtube service
-        redirectActivity(this,Shopping_cart_MainActivity.class);
+        redirectActivity(this,SummaryActivity.class);
     }
 
     public void ClickAboutUs(View view){
